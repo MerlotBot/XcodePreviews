@@ -13,6 +13,7 @@
 		80FBB8F222C134DE00184B7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80FBB8F122C134DE00184B7B /* Assets.xcassets */; };
 		80FBB8F522C134DE00184B7B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80FBB8F422C134DE00184B7B /* Preview Assets.xcassets */; };
 		80FBB8F822C134DE00184B7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80FBB8F622C134DE00184B7B /* LaunchScreen.storyboard */; };
+		80FBB90022C1357000184B7B /* DishCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FBB8FF22C1357000184B7B /* DishCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		80FBB8F422C134DE00184B7B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		80FBB8F722C134DE00184B7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80FBB8F922C134DE00184B7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80FBB8FF22C1357000184B7B /* DishCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				80FBB8F622C134DE00184B7B /* LaunchScreen.storyboard */,
 				80FBB8F922C134DE00184B7B /* Info.plist */,
 				80FBB8F322C134DE00184B7B /* Preview Content */,
+				80FBB8FF22C1357000184B7B /* DishCell.swift */,
 			);
 			path = XcodePreviews;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80FBB8EC22C134D900184B7B /* AppDelegate.swift in Sources */,
+				80FBB90022C1357000184B7B /* DishCell.swift in Sources */,
 				80FBB8EE22C134D900184B7B /* SceneDelegate.swift in Sources */,
 				80FBB8F022C134D900184B7B /* ContentView.swift in Sources */,
 			);
